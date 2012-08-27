@@ -1,0 +1,22 @@
+Game name: Cat adventures. 
+Game description: This game is about a cat playing around and doing some actions.
+Of course, the player will act as a cat.
+Game structure:
+Game will be going on in a room, where cat can find different places for playing.
+Place could be chosen from start menu.
+A player would be given a sequence of questions.
+Each question would have a list of choises displayed to player.
+Every next choise would depend on previous choise. 
+Every choise would be evaluated and player will be given some points for each choise.
+Depending on how much points player obtained for his choises, he will be considered as a bad cat or a good cat in the end of game.
+
+List of places:
+	- bathroom
+	- balcony
+	- kitchen
+
+Logical parts:
+	- main menu (where player can choose a place to play)
+	- game flow for each place
+	- cat behaviour evaluation
+	- struct for counting player's scores
